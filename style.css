@@ -52,7 +52,7 @@ main{
     justify-content: space-around;
     align-items: center;
     gap: 100px;
-    padding: 150px 0;
+    padding: 150px 0 110px 0;
 }
 .features-img{
     width: 100%;
@@ -79,3 +79,38 @@ main{
 .features-content li{
     margin-bottom: 15px;
 }
+/*---------planning card section-*/
+.planning-card-section{
+    padding-bottom: 120px;
+}
+.planning-card-section h1{
+    color:#151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+.card-container h4{
+    color: #151414;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 15px;
+    text-align: center;
+}
+.card-container p{
+    color: #737272;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 7px;
+    text-align: center;
+
+}
+
